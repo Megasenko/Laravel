@@ -15,6 +15,9 @@ class StudentAddress extends Model
 
     public $timestamps = false;
 
-
+    public function student()
+    {
+        return $this->belongsTo('App\Models\Student');
+    }
 
 }

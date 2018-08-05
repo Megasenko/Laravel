@@ -19,8 +19,8 @@ class StudentsTableSeeder extends Seeder
                     "firstname"   => "Koby",
                     "nationality" => "UK",
                     "email"       => "Astrid@salma.com",
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Dicki",
@@ -28,8 +28,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "UK",
                     "email"       => "Ivory@ashtyn.me"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Carter",
@@ -37,8 +37,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "UK",
                     "email"       => "Ari@flo.tv"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Koch",
@@ -46,8 +46,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "UK",
                     "email"       => "Gene_Hilpert@laurie.io"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Kilback",
@@ -55,8 +55,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Dominican Republic",
                     "email"       => "Antonia.Hauck@giuseppe.tv"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Hoeger",
@@ -64,8 +64,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Panama",
                     "email"       => "Maritza_Mann@abelardo.tv"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Hudson",
@@ -73,8 +73,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Chile",
                     "email"       => "Reynold_Ferry@bennett.us"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Hirthe",
@@ -82,8 +82,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Kyrgyzstan",
                     "email"       => "Augustine@cassie.tv"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Ebert",
@@ -91,8 +91,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Palau",
                     "email"       => "Amina.Farrell@charlie.net"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Denesik",
@@ -100,8 +100,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Kuwait",
                     "email"       => "Tyrese@don.ca"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Moen",
@@ -109,8 +109,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Vatican City",
                     "email"       => "Neil@merlin.name"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Spencer",
@@ -118,8 +118,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Cambodia",
                     "email"       => "Alexandria@eva.io"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Ziemann",
@@ -127,8 +127,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Azerbaijan",
                     "email"       => "Micaela@millie.info"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Rempel",
@@ -136,8 +136,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Seychelles",
                     "email"       => "Chyna_Nolan@elody.org"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Zboncak",
@@ -145,8 +145,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Kazakhstan",
                     "email"       => "Annamae_Runte@soledad.us"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Weimann",
@@ -154,8 +154,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Turks and Caicos Islands",
                     "email"       => "Jeromy_Blick@katrine.biz"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Waelchi",
@@ -163,8 +163,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "People's Democratic Republic of Yemen",
                     "email"       => "Everette_Torphy@halle.biz"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Altenwerth",
@@ -172,8 +172,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Wake Island",
                     "email"       => "Adelbert.Ryan@francisca.org"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Zieme",
@@ -181,8 +181,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Guatemala",
                     "email"       => "Joannie.Brown@sigurd.co.uk"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Beatty",
@@ -190,8 +190,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "British Antarctic Territory",
                     "email"       => "Alessandra_Hayes@jamal.biz"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Kuhic",
@@ -199,8 +199,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Paraguay",
                     "email"       => "Sonny@golda.net"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Koepp",
@@ -208,8 +208,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Liberia",
                     "email"       => "Rosella@cruz.biz"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Pfannerstill",
@@ -217,8 +217,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Puerto Rico",
                     "email"       => "Dave@carlee.me"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Douglas",
@@ -226,8 +226,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Denmark",
                     "email"       => "Walter@karley.biz"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Conroy",
@@ -235,8 +235,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Afghanistan",
                     "email"       => "Charley.Orn@frances.co.uk"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Doyle",
@@ -244,8 +244,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Liechtenstein",
                     "email"       => "Isobel@simone.biz"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Schulist",
@@ -253,8 +253,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "United States",
                     "email"       => "Reginald.Klein@keshawn.name"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Hansen",
@@ -262,8 +262,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Canada",
                     "email"       => "Lorine@rebeka.com"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Conn",
@@ -271,8 +271,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Kiribati",
                     "email"       => "Zackary.Dickinson@gonzalo.info"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Yost",
@@ -280,8 +280,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "South Africa",
                     "email"       => "Herman@avis.me"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Quigley",
@@ -289,8 +289,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Bhutan",
                     "email"       => "Roy@judah.com"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Quitzon",
@@ -298,8 +298,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Timor-Leste",
                     "email"       => "Jana@herta.name"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Langworth",
@@ -307,8 +307,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "New Zealand",
                     "email"       => "Sophia.Paucek@jamir.net"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Kiehn",
@@ -316,8 +316,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Dominican Republic",
                     "email"       => "Gia@nestor.us"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Parker",
@@ -325,8 +325,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Kyrgyzstan",
                     "email"       => "Faustino@shane.us"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Kuhlman",
@@ -334,8 +334,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Gibraltar",
                     "email"       => "Roel@kianna.net"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Cruickshank",
@@ -343,8 +343,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Macau SAR China",
                     "email"       => "Bell@buddy.co.uk"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Yundt",
@@ -352,8 +352,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Papua New Guinea",
                     "email"       => "Marcia@noe.org"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Pacocha",
@@ -361,8 +361,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Greenland",
                     "email"       => "Shakira_Kessler@moriah.co.uk"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Purdy",
@@ -370,8 +370,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Mauritania",
                     "email"       => "Ignatius@madison.info"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Block",
@@ -379,8 +379,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Belarus",
                     "email"       => "Lamont@david.info"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Waelchi",
@@ -388,8 +388,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Paraguay",
                     "email"       => "Marta.Grimes@malinda.org"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Batz",
@@ -397,8 +397,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Netherlands Antilles",
                     "email"       => "Janie.Klocko@dallin.net"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Rogahn",
@@ -406,8 +406,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Cape Verde",
                     "email"       => "Gage.Willms@ruben.me"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Funk",
@@ -415,8 +415,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Zimbabwe",
                     "email"       => "Daphne@darryl.biz"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Nader",
@@ -424,8 +424,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Panama Canal Zone",
                     "email"       => "Payton@rupert.org"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Stroman",
@@ -433,8 +433,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Saint Martin",
                     "email"       => "Saul@gia.name"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Jaskolski",
@@ -442,8 +442,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Bermuda",
                     "email"       => "Amos_Effertz@jennie.info"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Zieme",
@@ -451,8 +451,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Uzbekistan",
                     "email"       => "Martin@isabelle.com"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Tromp",
@@ -460,8 +460,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Peru",
                     "email"       => "Loy@evalyn.us"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Nitzsche",
@@ -469,8 +469,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "New Zealand",
                     "email"       => "Bridgette@gordon.us"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Kuphal",
@@ -478,8 +478,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Maldives",
                     "email"       => "Terrance.Rowe@mario.co.uk"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Cruickshank",
@@ -487,8 +487,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Jamaica",
                     "email"       => "Abelardo@elza.ca"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Koepp",
@@ -496,8 +496,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Monaco",
                     "email"       => "Norbert@kristian.io"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Kohler",
@@ -505,8 +505,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Russia",
                     "email"       => "Aidan@nona.name"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Ondricka",
@@ -514,8 +514,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Turks and Caicos Islands",
                     "email"       => "Kristin.Rolfson@madelyn.tv"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Leuschke",
@@ -523,8 +523,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Niue",
                     "email"       => "Chauncey.Hoeger@jeramie.tv"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Funk",
@@ -532,8 +532,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Djibouti",
                     "email"       => "Korbin@hallie.io"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Romaguera",
@@ -541,8 +541,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Djibouti",
                     "email"       => "Jocelyn_Fadel@lauryn.com"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Nitzsche",
@@ -550,8 +550,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Guernsey",
                     "email"       => "Markus.Gulgowski@nicolas.tv"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Windler",
@@ -559,8 +559,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Guernsey",
                     "email"       => "Shayna.Lesch@donny.io"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Blanda",
@@ -568,8 +568,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "French Southern Territories",
                     "email"       => "Modesta_Aufderhar@belle.co.uk"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Reilly",
@@ -577,8 +577,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Yemen",
                     "email"       => "Ford@garfield.name"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Cassin",
@@ -586,8 +586,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Mayotte",
                     "email"       => "Anastacio@murray.net"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Macejkovic",
@@ -595,8 +595,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Slovakia",
                     "email"       => "Retha@griffin.me"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Feest",
@@ -604,8 +604,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Monaco",
                     "email"       => "Keshawn_Kuvalis@orlando.name"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Fadel",
@@ -613,8 +613,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Belarus",
                     "email"       => "Kailee_Casper@reina.me"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Shields",
@@ -622,8 +622,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Neutral Zone",
                     "email"       => "Rachel_Block@olin.info"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Romaguera",
@@ -631,8 +631,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Canton and Enderbury Islands",
                     "email"       => "Cathrine@virgie.us"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Hessel",
@@ -640,8 +640,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Czech Republic",
                     "email"       => "Skyla@gonzalo.net"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Donnelly",
@@ -649,8 +649,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "South Korea",
                     "email"       => "Sheila.Abshire@david.io"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Hagenes",
@@ -658,8 +658,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Samoa",
                     "email"       => "Linda@monte.me"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Schmeler",
@@ -667,8 +667,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Palau",
                     "email"       => "Raphael_Senger@vernon.biz"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Shields",
@@ -676,8 +676,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Samoa",
                     "email"       => "Michelle.Rice@pat.me"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Kemmer",
@@ -685,8 +685,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Niger",
                     "email"       => "Terry.Rau@brennan.com"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Kunde",
@@ -694,8 +694,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "French Guiana",
                     "email"       => "Julius@isabell.io"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Jacobs",
@@ -703,8 +703,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Albania",
                     "email"       => "Juliana.Stanton@magnolia.ca"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Ritchie",
@@ -712,8 +712,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Chad",
                     "email"       => "Kaleigh.Durgan@verner.us"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Erdman",
@@ -721,8 +721,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Puerto Rico",
                     "email"       => "Arthur_Stroman@quinn.com"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Schimmel",
@@ -730,8 +730,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Serbia",
                     "email"       => "Dovie.Williamson@alycia.org"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Tillman",
@@ -739,8 +739,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Botswana",
                     "email"       => "Bethel@jess.com"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Boyle",
@@ -748,8 +748,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Tokelau",
                     "email"       => "Claude@brent.us"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Feest",
@@ -757,8 +757,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Georgia",
                     "email"       => "Abdullah.Terry@leonardo.net"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "O'Conner",
@@ -766,8 +766,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Nepal",
                     "email"       => "Virgie@robert.name"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Towne",
@@ -775,8 +775,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "New Caledonia",
                     "email"       => "Henri@breana.org"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Padberg",
@@ -784,8 +784,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Seychelles",
                     "email"       => "Florencio@barney.com"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Stiedemann",
@@ -793,8 +793,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Greece",
                     "email"       => "Jessika.Nader@glennie.name"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Turcotte",
@@ -802,8 +802,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Nauru",
                     "email"       => "Joyce_Jaskolski@emmalee.name"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Pouros",
@@ -811,8 +811,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Micronesia",
                     "email"       => "Chase_Kub@emely.us"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Romaguera",
@@ -820,8 +820,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Australia",
                     "email"       => "Charlotte@earl.info"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Tremblay",
@@ -829,8 +829,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "French Guiana",
                     "email"       => "Annamae.Upton@roma.biz"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Barrows",
@@ -838,8 +838,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Mozambique",
                     "email"       => "Wellington@mara.ca"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Funk",
@@ -847,8 +847,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Malawi",
                     "email"       => "Kenna@vicky.us"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Welch",
@@ -856,8 +856,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Ethiopia",
                     "email"       => "Wellington_Cormier@novella.tv"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Legros",
@@ -865,8 +865,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Antigua and Barbuda",
                     "email"       => "Ubaldo@bessie.us"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Labadie",
@@ -874,8 +874,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Martinique",
                     "email"       => "Josh@kelvin.io"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Klein",
@@ -883,8 +883,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Nepal",
                     "email"       => "Isidro_Homenick@jerald.biz"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Kuvalis",
@@ -892,8 +892,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Panama Canal Zone",
                     "email"       => "Annabelle_Okuneva@christelle.com"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Macejkovic",
@@ -901,8 +901,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "Austria",
                     "email"       => "Ada_Wuckert@kirk.us"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ],
                 [
                     "surname"     => "Bosco",
@@ -910,8 +910,8 @@ class StudentsTableSeeder extends Seeder
                     "nationality" => "São Tomé and Príncipe",
                     "email"       => "Yasmin@darwin.us"
                     ,
-                    "address_id"  => rand(0, 88),
-                    "course_id"   => rand(0, 199)
+                    "address_id"  => rand(1, 88),
+                    "course_id"   => rand(1, 199)
                 ]
             ];
 

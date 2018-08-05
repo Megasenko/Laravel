@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Student;
 
 
+use App\Models\StudentAddress;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
 
@@ -25,6 +26,7 @@ class ExportController extends Controller
      */
     public function viewStudents()
     {
+
         $students = Student::with('course')->get();
         return view('view_students', compact('students'));
     }
@@ -40,20 +42,36 @@ class ExportController extends Controller
             $filterStudentId[] = (int)$studId;
         }
 
-        $students = Student::with('course')->whereIn('id', $filterStudentId)->get();
+        //        dd($students[1]['address']['city']);
+
+
+        $students = Student::with('course', 'address')->whereIn('id', $filterStudentId)->get();
         $filename = "students.csv";
         $handle = fopen($filename, 'w+');
         fputcsv($handle, [
             'Firstname',
             'Surname',
             'Email',
+            'Nationality',
             'University',
-            'Course'
+            'Course',
+            'House No',
+            'Post code',
+            'City',
         ]);
 
         foreach ($students as $student) {
-            fputcsv($handle, [$student['firstname'], $student['surname'], $student['email'],
-                $student['course']['university'], $student['course']['course_name']]);
+            fputcsv($handle, [
+                $student['firstname'],
+                $student['surname'],
+                $student['email'],
+                $student['nationality'],
+                $student['course']['university'],
+                $student['course']['course_name'],
+                $student['address']['houseNo'],
+                $student['address']['postcode'],
+                $student['address']['city'],
+            ]);
         }
 
         fclose($handle);
