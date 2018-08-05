@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
+
 class Students extends Model
 {
     /**
@@ -18,13 +19,13 @@ class Students extends Model
 
     public function course()
     {
-        return $this->belongsTo('Course');
+        return $this->belongsTo('App\Models\Course');
     }
 
     public function address()
     {
 
-        return $this->hasOne('StudentAddresses', 'id');
+        return $this->hasOne('App\Models\StudentAddresses', 'id');
 
     }
 }

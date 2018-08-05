@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('', [ 'uses' => 'ExportController@welcome', 'as' => 'home'] );
-Route::get('view', [ 'uses' => 'ExportController@viewStudents', 'as' => 'view'] );
-Route::get('export', [ 'uses' => 'ExportController@export', 'as' => 'export'] );
+
+Route::get('', ['uses' => 'ExportController@welcome', 'as' => 'home']);
+
+Route::get('view', ['uses' => 'ExportController@viewStudents', 'as' => 'view']);
+
+Route::post('export', ['uses' => 'ExportController@exportStudentsToCSV', 'as' => 'export']);
+

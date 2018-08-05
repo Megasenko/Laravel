@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Students;
 use Illuminate\Database\Seeder;
 
 class StudentsTableSeeder extends Seeder
@@ -908,6 +909,9 @@ class StudentsTableSeeder extends Seeder
                     "firstname"   => "Emilia",
                     "nationality" => "São Tomé and Príncipe",
                     "email"       => "Yasmin@darwin.us"
+                    ,
+                    "address_id"  => rand(0, 88),
+                    "course_id"   => rand(0, 199)
                 ]
             ];
 

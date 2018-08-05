@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateStudentAddressTable extends Migration
+class CreateStudentAddressesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateStudentAddressTable extends Migration
      */
     public function up()
     {
-        Schema::create('student_address', function ($table) {
+        Schema::create('student_addresses', function (Blueprint $table) {
             $table->increments('id')->unsigned();
             $table->text('houseNo');
             $table->text('line_1');
@@ -31,6 +31,6 @@ class CreateStudentAddressTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::drop("student_addresses");
     }
 }

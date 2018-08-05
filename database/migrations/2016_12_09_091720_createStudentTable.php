@@ -13,7 +13,7 @@ class CreateStudentTable extends Migration
      */
     public function up()
     {
-        Schema::create('student', function ($table) {
+        Schema::create('student', function (Blueprint $table) {
             $table->increments('id')->unsigned();
             $table->text('firstname');
             $table->text('surname');
@@ -32,6 +32,6 @@ class CreateStudentTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::drop("student");
     }
 }
