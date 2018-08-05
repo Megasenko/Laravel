@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Students;
+use App\Models\Student;
 
 
 use Illuminate\Http\Request;
@@ -25,7 +25,7 @@ class ExportController extends Controller
      */
     public function viewStudents()
     {
-        $students = Students::with('course')->get();
+        $students = Student::with('course')->get();
         return view('view_students', compact('students'));
     }
 
@@ -40,7 +40,7 @@ class ExportController extends Controller
             $filterStudentId[] = (int)$studId;
         }
 
-        $students = Students::with('course')->whereIn('id', $filterStudentId)->get();
+        $students = Student::with('course')->whereIn('id', $filterStudentId)->get();
         $filename = "students.csv";
         $handle = fopen($filename, 'w+');
         fputcsv($handle, [

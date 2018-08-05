@@ -1,7 +1,7 @@
 <?php
 
 
-use App\Models\StudentAddresses;
+use App\Models\StudentAddress;
 use Illuminate\Database\Seeder;
 
 class StudentsAddressTableSeeder extends Seeder
@@ -640,7 +640,7 @@ class StudentsAddressTableSeeder extends Seeder
         ];
 
         foreach ($addresses as $address) {
-            StudentAddresses::create($address);
+            StudentAddress::create($address);
         }
     }
 }

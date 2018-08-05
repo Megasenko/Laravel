@@ -1,6 +1,6 @@
 <?php
 
-use App\Models\Students;
+use App\Models\Student;
 use Illuminate\Database\Seeder;
 
 class StudentsTableSeeder extends Seeder
@@ -916,7 +916,7 @@ class StudentsTableSeeder extends Seeder
             ];
 
             foreach ($students as $student) {
-                Students::create($student);
+                Student::create($student);
             }
         }
     }
