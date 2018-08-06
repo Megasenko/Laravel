@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Course;
 use App\Models\Student;
 
 
 use App\Models\StudentAddress;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Response;
 
 class ExportController extends Controller
@@ -41,9 +43,6 @@ class ExportController extends Controller
         foreach ($allCheckedStudents as $studId) {
             $filterStudentId[] = (int)$studId;
         }
-
-        //        dd($students[1]['address']['city']);
-
 
         $students = Student::with('course', 'address')->whereIn('id', $filterStudentId)->get();
         $filename = "students.csv";
@@ -80,8 +79,6 @@ class ExportController extends Controller
         );
 
         return Response::download($filename, 'students.csv', $headers);
-
-
     }
 
     /**
@@ -89,6 +86,35 @@ class ExportController extends Controller
      */
     public function exportCourseAttendenceToCSV()
     {
+
+        $courses = DB::table('student')
+            ->join('course', 'student.course_id', '=', 'course.id')
+            ->select('course.course_name', DB::raw('count(student.id) as total_student'))
+            ->groupBy('student.course_id')
+            ->get();
+
+        $filename = "course.csv";
+        $handle = fopen($filename, 'w+');
+
+        fputcsv($handle, [
+            'Course',
+            'Students',
+        ]);
+
+        foreach ($courses as $course) {
+            fputcsv($handle, [
+                $course['course_name'],
+                $course['total_student']
+            ]);
+        }
+
+        fclose($handle);
+
+        $headers = array(
+            'Content-Type' => 'text/csv',
+        );
+
+        return Response::download($filename, 'course.csv', $headers);
 
     }
 }

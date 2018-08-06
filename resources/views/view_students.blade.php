@@ -19,7 +19,8 @@
         <div style='margin: 10px;  text-align: left'>
             <input type="button" id="SelectAll" value="Select All"/>
             <input type="button" id="Сlear" value="Сlear All"/>
-            <button type="submit">Export</button>
+            <button type="submit" id="exportStudents">Export Students</button>
+            <button type="submit" id="exportCourse">Export Course</button>
         </div>
     </div>
     <div style='margin: 10px; text-align: center;'>

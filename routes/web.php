@@ -18,3 +18,4 @@ Route::get('view', ['uses' => 'ExportController@viewStudents', 'as' => 'view']);
 
 Route::post('export', ['uses' => 'ExportController@exportStudentsToCSV', 'as' => 'export']);
 
+Route::post('exportCourse', ['uses' => 'ExportController@exportCourseAttendenceToCSV', 'as' => 'exportCourse']);
